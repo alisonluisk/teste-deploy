@@ -5,7 +5,6 @@ services:
     image: teste-deploy:v1
     ports:
       - 8080:8080
-    environment:
     networks:
       - udemy
 
