@@ -20,7 +20,7 @@ public class EstadoResource {
 	@RequestMapping(method=RequestMethod.GET)
 	public ResponseEntity<List<Estado>> findAll() {
 		List<Estado> list = service.findAll();
-		return ResponseEntity.ok().body(list);
+		return ResponseEntity.ok().body(list.subList(0,5));
 	}
 	
 }
