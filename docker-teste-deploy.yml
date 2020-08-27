@@ -2,7 +2,7 @@ version: "3.3"
 
 services:
   teste-deploy:
-    image: teste-deploy:v1
+    image: teste-deploy:latest
     ports:
       - 8081:8081
     networks:
